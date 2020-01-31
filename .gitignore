@@ -1,0 +1,7 @@
+# back-end
+venv
+.idea
+__pycache__
+*.pyc
+
+# front-end
