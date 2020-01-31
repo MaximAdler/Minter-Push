@@ -1,4 +1,4 @@
-# front-end
+# Minter Push [front-end]
 
 ## Project setup
 ```
