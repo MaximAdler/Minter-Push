@@ -10,6 +10,10 @@ class Config:
     APP_ENV = os.getenv('APP_ENV', 'DEV')
     API_URL_PREFIX = '/api'
 
+    DB_USERNAME = 'pusher_user'
+    DB_PASSWORD = 'pusher_pass'
+    DB_NAME = 'pusher_db'
+
 
 class DevelopmentConfig(Config):
     DEBUG = True
