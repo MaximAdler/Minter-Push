@@ -14,7 +14,10 @@ def create_app():
 
 
 def create_api(app):
+    from pusher.modules.views import LinkGenerator
+
     api_bp = Blueprint('api_v1', __name__, url_prefix=f'{APP_CONFIG.API_URL_PREFIX}/v1')
     api = Api(app=api_bp)
+    api.add_resource(LinkGenerator, '/')
     app.register_blueprint(api_bp)
     return api
