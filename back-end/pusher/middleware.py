@@ -1,0 +1,1 @@
+MIDDLEWARE_LIST = tuple()
