@@ -1,18 +1,21 @@
 <template lang="html">
-  <div class="main">
-  <div class="title">
-    <img src="../pictures/title.png" alt="">
+  <div class="main_page">
+  <Qr />
+  <Button />
   </div>
-</div>
 </template>
 
 <script>
+import Qr from './Qr';
+import Button from './Button';
+
 export default {
+  components: {
+    Qr,
+    Button  
+  }
 }
 </script>
 
 <style lang="css" scoped>
-body {
-  background-color: #E5E5E5;
-}
 </style>

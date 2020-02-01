@@ -1,22 +1,22 @@
 <template>
   <div id="app">
-    <Main />
+    <Title />
     <Navigation />
-    <Qr />
+    <Main />
   </div>
 </template>
 
 <script>
-import Main from './components/Main';
+import Title from './components/Title';
 import Navigation from './components/Navigation';
-import Qr from './components/Qr';
+import Main from './components/Main';
 
 export default {
   name: 'app',
   components: {
-    Main,
+    Title,
     Navigation,
-    Qr
+    Main
   }
 }
 </script>
