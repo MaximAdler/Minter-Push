@@ -1,3 +1,3 @@
 # Minter-Push
 
-[XSS](.javascript:alert(1);)
+[XSS](javascript:alert(1);)
